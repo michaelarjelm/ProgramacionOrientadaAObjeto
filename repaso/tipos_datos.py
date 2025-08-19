@@ -59,12 +59,11 @@
 #     print("contador: ", contador)
 #     contador+=1   
    
+def DameTuEdad():
+    edad=input("¿Que edad tienes?")
+    return int(edad)
+        
     
-    
-def saludar(nombre):
-    print(f"Hello {nombre}")
-    
-saludar("Javiera")    
  
 
     
