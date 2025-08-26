@@ -8,5 +8,3 @@ class Persona:
     def presentarse(self):
         print(f"Hola, me llamo {self.nombre} y tengo {self.edad} años.")
      
-
-

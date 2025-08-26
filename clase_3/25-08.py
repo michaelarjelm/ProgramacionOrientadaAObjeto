@@ -31,23 +31,22 @@ auto1.mostrar_info()'''
 # Un método llamado área que calcule y devuelva el área
 # del círculo (usa la fórmula: área = π * radio^2).
 
-'''import math
+import math
 
 class Circulo:
     def __init__(self, radio):
         self.radio = radio
         
     def area(self):
-        return math.pi * (math.pow(self.radio, 2))'''
+        return math.pi * (math.pow(self.radio, 2))
 
 # Instrucciones:
 # Crea una instancia de Circulo con radio 5.
 # Llama al método área e imprime el resultado.
 
-'''circulo = Circulo(5)
+circulo = Circulo(5)
 area = circulo.area()
-print("El area es:", area)'''
-
+print("El area es:", area)
 
 from clase_Persona import Persona
 
