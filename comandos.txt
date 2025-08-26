@@ -1,0 +1,25 @@
+###################### AL INICIAR LA CLASE####################
+# Si es la primera vez que trabajan con el repo
+git clone <URL-del-repositorio>
+cd <nombre-de-la-carpeta>
+git checkout alumno/nombreAlumno
+
+# Si ya tienen el repo en su máquina
+cd <nombre-de-la-carpeta>
+git checkout alumno/nombreAlumno
+git pull origin alumno/nombreAlumno
+
+###################### DURANTE LA CLASE####################
+# Ver cambios
+git status
+
+# Agregar todos los cambios al área de staging
+git add .
+
+# Crear commit con descripción breve
+git commit -m "Descripción breve del cambio"
+
+# Subir commits a la rama remota
+git push origin alumno/nombreAlumno
+
+
