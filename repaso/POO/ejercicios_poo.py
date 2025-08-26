@@ -1,0 +1,21 @@
+# import math 
+
+# class Circulo:
+#     def __init__(self,radio):
+#         self.radio=radio
+        
+#     def area(self):
+#         return math.pi * ((self.radio)^2)
+
+    # def area(self):
+    #     return math.pi * ((self.radio)^2)
+
+# **********************************************
+# Crea una clase llamada Circulo que tenga:
+# Un constructor que reciba el radio como parámetro.
+# Un método llamado área que calcule y devuelva el área
+# del círculo (usa la fórmula: área = π * radio^2).
+
+# Instrucciones:
+# Crea una instancia de Circulo con radio 5.
+# Llama al método área e imprime el resultado.

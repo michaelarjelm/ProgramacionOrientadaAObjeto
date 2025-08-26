@@ -7,7 +7,9 @@
 # print("El nombre del usuario es: ",nombre.upper())
 # print("La edad del usuario es: ",edad)
 
-import math
+# import math
+
+# from POO.ejercicios_poo import Circulo
 
 
 # variableUno=int(input("Ingresa el primer número: "))
@@ -59,9 +61,20 @@ import math
 #     print("Contador: ", contador)
 #     contador+=1
 
-def DameTuEdad():
-    edad=input("¿Que edad tienes?")
-    return int(edad)
+# def DameTuEdad():
+#     edad=input("¿Que edad tienes?")
+#     return int(edad)
 
 
+# circulo = Circulo(5) #le estoy pasando los parámetros al constructor
+# area = circulo.area()
+# print("El área es: ", area)
 
+
+from ejercicioPersona.persona import Persona
+
+presentarse1 = Persona("Javiera",30)
+presentarse2 = Persona("Andrea",28)
+
+presentarse1.presentarse()
+presentarse2.presentarse()
