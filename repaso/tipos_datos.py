@@ -57,12 +57,31 @@
 #     print("contador: ", contador) 
 #     contador+=1       
 
-def DameTuEdad():
-   edad=input ("¿que edad tienes?") 
-   return int (edad) 
+# def DameTuEdad():
+#    edad=input ("¿que edad tienes?") 
+#    return int (edad) 
 
-def saludar(DameTuEdad):
-    print(f"hello {nombre}")  
+# def saludar(DameTuEdad):
+#     print(f"hello {nombre}")  
     
-edadPrueba=DameTuEdad()
+# edadPrueba=DameTuEdad()
       
+      
+# #    from turtle import circle
+
+
+# circulo= circulo(5)  
+# # area =circulo.area()
+# # print ("el area es :",area)  
+
+# import math
+# from re import match
+
+
+# class circulo:
+#     def __init__(self,radio):
+#         self.radio=radio
+        
+#     def area(self):
+#         return match.pi  *(math.pow(self.radio,2))
+
