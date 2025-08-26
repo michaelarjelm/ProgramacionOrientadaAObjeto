@@ -9,6 +9,9 @@
 
 import math
 
+from POO.circulo import Circulo
+from ejercicio1.clases.persona import Persona
+
 
 # variableUno=int(input("Ingresa el primer número: "))
 # variableDos=int(input("Ingresa el segundo número: "))
@@ -59,9 +62,21 @@ import math
 #     print("Contador: ", contador)
 #     contador+=1
 
-def DameTuEdad():
-    edad=input("¿Que edad tienes?")
-    return int(edad)
+# def DameTuEdad():
+#     edad=input("¿Que edad tienes?")
+#     return int(edad)
 
+# Crea una instancia de Circulo con radio 5.
+# Llama al método área e imprime el resultado.
 
+# circulo= Circulo(5)
 
+# area =circulo.area()
+
+# print ("El área es :",area)
+
+persona =Persona("Michael Arjel",37)
+persona2 =Persona("Tiana",2)
+
+persona.presentarse()
+persona2.presentarse()
