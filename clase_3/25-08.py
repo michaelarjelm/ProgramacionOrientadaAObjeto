@@ -55,3 +55,8 @@ persona2 = Persona("Foster", 30)
 
 persona1.presentarse()
 persona2.presentarse()
+
+
+# llamar desde el main.py
+# Hacer carpetas con los ejercicios
+# ejercicio1/clase.py
