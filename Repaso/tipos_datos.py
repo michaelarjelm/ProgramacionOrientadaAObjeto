@@ -5,7 +5,6 @@
 # print("El nombre del usuario es:", nombre.upper())
 # print("La edad del usuario es:", edad)
 
-import math
 
 
 # variableUno=int(input("Ingresa el primer número:"))
@@ -52,12 +51,31 @@ import math
 #     print("Contador: ", contador)
 #     contador+=1
  
-def DameTuEdad():
-    edad=input("¿Qué edad tienes?")
-    return int(edad)
+# def DameTuEdad():
+#     edad=input("¿Qué edad tienes?")
+#     return int(edad)
     
 # def saludar(): #definición de método/de función, con parantesis se llaman parámetros, con parentesis vacios es sin param
 #     print(f"Hello {nombre}")
     
-edadPrueba=DameTuEdad()
-    
+# edadPrueba=DameTuEdad()
+
+# import math
+
+# from POO.circulo import Circulo
+
+ 
+# circulo = Circulo(5)
+# area = circulo.area()
+# print ("El área es:", area)
+
+from POO.Persona import Persona
+
+saludo01 = Persona("Javiera","30")
+saludo02 = Persona("Andrea","28")
+
+saludo01.presentarse()
+saludo02.presentarse()
+
+# presentacion01 = saludo01.presentarse()
+# presentacion02 = saludo02.presentarse()
