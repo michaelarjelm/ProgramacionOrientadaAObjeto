@@ -1,0 +1,9 @@
+class Clase:
+    def __init__(self, parametro):
+        self.parametro = parametro
+
+    def metodo(self, parametro):
+        pass
+
+objeto = Clase(argumento)
+variable = objeto.metodo(argumento)
