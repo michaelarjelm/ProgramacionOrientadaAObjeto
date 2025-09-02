@@ -1,0 +1,30 @@
+-- ENCAPSULAMIENTO --
+
+* ocultar atributos y restringir acceso directo a ellos
+* getter y setter (obtener y establecer)
+    * get obtener el valor del atributo
+    * set establecer un nuevo valor a un atributo
+
+el encapsulamiento se logra mediante convenciones de nomenclatura 
+_atributo protegido __atributo privado
+
+-- ATRIBUTOS PUBLICOS --
+se puede acceder desde cualquier lugar (dentro y fuer ade la calse)
+
+-- ATRIBUTOS PROTEGIDOS --
+
+se escriben con un guin bajo al inicio
+
+-- atributos privados --
+
+se escriben con dos guiones bajos al comienzo
+
+-- getter
+    * permite obternes leer el valor del atributo privado
+-- setter
+    * permite modificar el valor de un atrbuto orivado
+
+-- PROPERTY --
+
+@property es un decoradorque convierte un metodo en un atributo de solo lectura
+(hace que se vea como una variable)
