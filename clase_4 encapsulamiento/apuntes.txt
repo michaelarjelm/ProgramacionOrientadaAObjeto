@@ -28,3 +28,4 @@ se escriben con dos guiones bajos al comienzo
 
 @property es un decoradorque convierte un metodo en un atributo de solo lectura
 (hace que se vea como una variable)
+
