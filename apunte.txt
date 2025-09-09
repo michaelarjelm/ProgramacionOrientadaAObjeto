@@ -7,3 +7,6 @@ class Clase:
 
 objeto = Clase(argumento)
 variable = objeto.metodo(argumento)
+
+
+REPASAR ENCAPSULAMIENTO

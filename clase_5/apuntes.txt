@@ -1,0 +1,75 @@
+-- HERENCIA --
+
+permite que una clasa (hija o subclase) reutilice y extienda o heredar duh (extend en java)
+los atributos y metodos de otra clase (padre o superclase)
+
+se hace para:
+*reutizar codigo baisicli
+*organizar jerarquicamente las clases
+*escalabilidad???(no se si asi se escribe, pero que sea menos costoso)
+
+class Padre:
+    def __init__(self,parametro)
+        self.parametro = parametro
+
+    def metodo_heredable_i_guess(self):
+        return "hace algo"
+
+class Hija(Padre): # Puede ser mas de un padre, pero lo veremos despues
+    def otro_metodo(self):
+        return "hace otra cosa"
+
+ejm = Hija()
+ejm.metodo_heredable_i_guess()
+ejm.otro_metodo()
+
+*********************************
+
+-- SUPER() --? i dont getit
+* se usa cuando el padre tiene constructor
+* para extender el metodo
+
+class Persona:
+    def __init__(self, nombre, edad):
+    self.nombre = nombre
+    self.edad = edad
+
+class Estudiante(Persona):
+    def __init__(self, nombre, edad, carrera):
+        super().__init__(nombre, edad) # Llama al constructor padre ????
+        self.carrera = carrera
+
+e1 = Estudiante("Luis",20. "ingenieria")
+
+class Factura:
+    def calcular_total(self, subtotal):
+    # El padrecalcula el subtotal
+    return subtotal
+
+class FacturaConInpuestos(Factura):
+    def calcular_total(self, subtotal):
+    total = super().__init__
+    /******* incompleto ******
+
+-- TIPOS DE HERENCIA --
+
+* simple: la clase hija hereda de una sola clase padre (la de recien)
+* multiple: hereda varias clases, ocupar con cuidado jjj (ver ejercicios)
+* multinivel: se forma una cadena
+* herencia jerarquica: varias clases diferentes heredan de una misma clase padre 
+    (un padre, varios hijos)
+
+----------------------------------------------------------------------------------
+
+??? -> arreglo de clases 
+
+el constructor que manda es el del padre si es que no se define en el hijo
+
+se ocupan en -> "es un" ejm: "un Perro es un Animal"
+no se usa en -> "tiene un" ejm "Coche tiene un Motor"
+
+tabla = clase
+tabla Persona -> clase Persona
+
+
+
