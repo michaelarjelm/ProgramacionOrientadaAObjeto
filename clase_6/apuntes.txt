@@ -1,0 +1,12 @@
+* pildoras informaticas yutub
+
+* repaso *
+entidad, modelo = clase
+clase: estructura, configuracion, molde
+atributo = parametro de una clase (variable)
+metodo = funcion, accion
+
+encapsulamiento: permite poner atributos como privados o protegidos,
+                 sirve para verificar (getter - setter)
+
+
