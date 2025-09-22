@@ -59,6 +59,25 @@ class FacturaConInpuestos(Factura):
 * herencia jerarquica: varias clases diferentes heredan de una misma clase padre 
     (un padre, varios hijos)
 
+---- EJEMPLO ----
+
+# Herencia multiple
+
+class Volador:
+    def volar(self):
+        print("volar")
+
+class Nadador:
+    def nadar(self):
+        print("nadar")
+        
+class Pato(Volador,Nadador):
+    pass
+
+p= Pato()
+p.volar()
+p.nadar()
+
 ----------------------------------------------------------------------------------
 
 ??? -> arreglo de clases 
