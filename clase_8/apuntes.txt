@@ -1,0 +1,21 @@
+-- Abstraccion
+interfaz = contrato (??
+
+####################
+
+from abc import ABC, abstractmethod
+
+
+class Abstracta(ABC):
+    @abstractmethod
+    def metodo_abstracto(self, parametro):
+        """Metodo abstracto: todas las subclases deben implementarlo"""
+        pass
+    
+class SubClase(Abstracta):
+    def metodo_abstracto(self, parametro):
+        return "Hace algo nuevo"
+
+class SubClaseDos(Abstracta):
+    def metodo_abstracto(self, parametro):
+        return "Hace otra cosa"
