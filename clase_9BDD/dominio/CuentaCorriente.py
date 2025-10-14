@@ -14,5 +14,3 @@ class CuentaCorriente(CuentaBancaria):
                     raise Exception("Sobrepasaste tu sobregiro")
                 else:
                     return self.setSaldo(super().mostrar_saldo() - monto)
-                
-

@@ -5,3 +5,5 @@ neon
 aplicacion = modelo de negocio
 dominio = clases
 infraestructura = base de datos
+
+orm = object relation managment(???)
