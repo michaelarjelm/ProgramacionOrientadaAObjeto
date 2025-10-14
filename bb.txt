@@ -1,3 +1,9 @@
+from .CuentaBancaria import CuentaBancaria
+from .CuentaAhorro import CuentaAhorro
+from .CuentaCorriente import CuentaCorriente
+
+__all__ = ["CuentaBancaria", "CuentaAhorro", "CuentaCorriente"]
+
 beaver
 postgresql
 neon
@@ -6,4 +12,9 @@ aplicacion = modelo de negocio
 dominio = clases
 infraestructura = base de datos
 
+-- ???? --
+
 orm = object relation managment(???)
+objeto t 
+(%x,%x)
+inyeccion de dependencias

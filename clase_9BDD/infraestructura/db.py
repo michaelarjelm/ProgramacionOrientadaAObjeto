@@ -6,8 +6,8 @@ from config import DNS
 def init_db():
     ddl = """
         CREATE TABLE IF NOT EXISTS cuentas  (
-            id INT PRIMARY KEY,
-            tipo VARCHAR(20) NOT NULL CHECK (tipo IN ('AHORRO', 'CORRIENTE')),
+            id BIGSERIAL PRIMARY KEY,
+            tipo VARCHAR(20) NOT NULL CHECK (tipo IN ('CUENTAAHORRO', 'CUENTACORRIENTE')),
             saldo NUMERIC(18,2) NOT NULL DEFAULT O
             );
             """
